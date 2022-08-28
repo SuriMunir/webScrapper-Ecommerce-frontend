@@ -24,7 +24,7 @@ const ProductListPage = () => {
     const getData = async () => {
       setIsLoading(true);
       const res = await axios.get(
-        `https://munir-webscrapper-app.herokuapp.com/api/products/search?product=${search}`
+        `https://munir-webscrapper-app.herokuapp.com/api/products/search?product=${search.toLowerCase()}`
       );
       const allRecords = [
         ...res.data.amazon,
