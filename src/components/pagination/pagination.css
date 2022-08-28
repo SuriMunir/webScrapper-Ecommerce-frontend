@@ -15,11 +15,17 @@
   padding: 4px 8px;
   border: 0.5px solid #e8e8e8;
   list-style-type: none;
+  cursor: pointer;
 }
 
 .page-link {
   color: #808080;
   font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 6px;
+  background: transparent;
   font-weight: 600;
   text-decoration: none;
+  cursor: pointer;
 }
